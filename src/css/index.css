@@ -1,0 +1,378 @@
+@font-face
+{
+	font-family: "IstokWeb";
+	src: url("./fonts/IstokWeb-Regular.ttf") format("embedded-opentype"),
+	url("fonts/IstokWeb-Regular.ttf") format("opentype");
+}
+@font-face
+{
+	font-family: "Bitter";
+	src: url("./fonts/Bitter-Regular.ttf") format("embedded-opentype"),
+	url("fonts/Bitter-Regular.ttf") format("opentype");
+}
+@font-face
+{
+	font-family: "Caveat";
+	src: url("./fonts/Caveat-Regular.ttf") format("embedded-opentype"),
+	url("fonts/Caveat-Regular.ttf") format("opentype");
+}
+@font-face
+{
+	font-family: "FiraSans";
+	src: url("./fonts/FiraSans-Regular.ttf") format("embedded-opentype"),
+	url("fonts/FiraSans-Regular.ttf") format("opentype");
+}
+@font-face
+{
+	font-family: "Oswald";
+	src: url("./fonts/Oswald-Regular.ttf") format("embedded-opentype"),
+	url("fonts/Oswald-Regular.ttf") format("opentype");
+}
+@font-face
+{
+	font-family: "RobotoCondensed";
+	src: url("./fonts/RobotoCondensed-Regular.ttf") format("embedded-opentype"),
+	url("fonts/RobotoCondensed-Regular.ttf") format("opentype");
+}
+@font-face
+{
+	font-family: "SourceSerifPro";
+	src: url("./fonts/SourceSerifPro-Regular.ttf") format("embedded-opentype"),
+	url("fonts/SourceSerifPro-Regular.ttf") format("opentype");
+}
+@font-face
+{
+	font-family: "Vollkorn";
+	src: url("./fonts/Vollkorn-Regular.ttf") format("embedded-opentype"),
+	url("fonts/Vollkorn-Regular.ttf") format("opentype");
+}
+.Verdena{
+  font-family: "Verdena";
+}
+.TimesNewsRomans{
+  font-family: "Times New Roman";
+}
+.Tahoma{
+  font-family: "Tahoma";
+}
+.SegoeUI{
+  font-family: 'Segoe UI';
+}
+.IstokWeb{
+  font-family: "IstokWeb";
+}
+.Bitter{
+  font-family: "Bitter";
+}
+.Caveat{
+  font-family: "Caveat";
+}
+.FiraSans{
+  font-family: "FiraSans";
+}
+.Oswald{
+  font-family: "Oswald";
+}
+.RobotoCondensed{
+  font-family: "RobotoCondensed";
+}
+.SourceSerifPro{
+  font-family: "SourceSerifPro";
+}
+.Vollkorn{
+  font-family: "Vollkorn";
+}
+
+.category{
+	font-family: "IstokWeb" !important;
+}
+.category .active{
+	color:aqua !important;
+}
+
+.profile-header
+{
+  box-sizing: border-box;
+}
+
+.profile-photo
+{
+  position: relative;
+  display: table;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  
+}
+
+.profile-photo img
+{
+  width: 50px;
+  max-height: 50px;
+  object-fit: cover;
+}
+.clip
+{
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.clip i
+{
+  padding-top: 7px;
+  font-size: 14px;
+}
+.profile-info
+{
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;  
+}
+.profile-info h4
+{
+  text-align: center;
+  font-size: 14px;
+
+}
+
+#profile-info
+{
+  margin-bottom: 100px;
+}
+
+.stickyTop {
+  position:   sticky;
+  top:        0;
+  width:      100%;
+  height:     60px;
+}
+.colorBox{
+  width: 60px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+.post-share a,.post-share label {
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #97989b;
+  margin-right: 4px;
+  margin-bottom: 6px;
+  -webkit-transition: 0.2s opacity;
+  transition: 0.2s opacity;
+}
+
+.post-share a:hover,.post-share label:hover {
+  opacity: 0.9;
+}
+
+.post-share a i,.post-share label i {
+  width: 20px;
+  text-align: center;
+}
+
+.post-share a span,.post-share label span {
+  padding-left: 10px;
+  border-left: 2px solid rgba(255, 255, 255, 0.1);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.social-facebook {
+  background: #225b99 !important;
+}
+
+.social-twitter {
+  background: #00adf2 !important;
+}
+
+.social-youtube {
+  background: rgb(255,0,0) !important;
+}
+
+.social-pinterest {
+  background: #cc2127 !important;
+}
+
+.social-instagram {
+  background: #d341b2 !important;
+}
+
+.meqale_reklam,.meqale_reklam a
+{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Segoe UI Semibold;
+  margin: auto;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #000;
+  overflow: hidden;
+}
+.meqale_reklam_sol .qaralti
+{
+  z-index: -1;
+}
+.meqale_reklam_sol img
+{
+  position: absolute;
+  float: left;
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  z-index: -2;
+}
+.meqale_reklam_sag
+{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  float: left;
+  text-align: center;
+}
+.meqale_reklam_sag label
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  line-height: 36px;
+}
+
+@import url("/src/css/fontawesome/css/all.css");
+
+    .blog-post h2 {
+        padding: 40px;
+        margin: 0px 0px 20px;
+        border: 1px solid #e8eaed;
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .blog-post h2:before {
+        content: "\f10d";
+        font-family: "Font Awesome 5 Pro";
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        border-radius: 50%;
+        color: #ee4266;
+        font-size: 30px;
+        background: #fff;
+        border: 2px solid #e8eaed;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .section-title {
+      position: relative;
+      margin-bottom: 20px;
+    }
+    
+    .section-title .title {
+      position: relative;
+      display: inline-block;
+      background-color: #fff;
+      font-size: 16px;
+     
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-right: 10px;
+      z-index: 20;
+    }
+    
+    .section-title:after {
+      content: "";
+      display: inline-block;
+      height: 2px;
+      background-color: #e8eaed;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 10px;
+      z-index: 10;
+    }
+    .author.media .media-left {
+      position: relative;
+      padding-right: 30px;
+    }
+    
+    .author .author-img {
+      width: 100px;
+      height: 100px !important;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      
+    }
+    .author img.author-img
+    {
+      width: 100px;
+      height: auto;
+      object-fit: cover;
+    }
+ 
+
+    @media(max-width: 920px){
+   
+    .blog-post table
+    {
+      width: 100% !important;
+    }
+    .blog-post img
+    {
+      width: 100% !important;
+      height: auto !important;
+      object-fit: cover !important;
+    }
+   }
+
+.scrollable-menu {
+    height: auto;
+    max-height: 300px;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar-track,.scrollable-menu::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(13,110,253,0.1);
+  height: 100px;
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar,.scrollable-menu::-webkit-scrollbar
+{
+  width: 3px;
+  
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb,.scrollable-menu::-webkit-scrollbar-thumb
+{
+	background-color: #0D6EFD;
+}

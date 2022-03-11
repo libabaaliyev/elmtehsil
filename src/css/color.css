@@ -1,0 +1,68 @@
+.bg-none{
+	background: none !important;
+}
+.bg-low-dark{
+	background: #484646 !important;
+}
+.bg-passive{
+	background: #E1E1E1 !important;
+}
+
+.btn-passive{
+	background: #E1E1E1 !important;
+	color: #5A5A5A !important ;
+}
+
+
+.bg--low-danger
+{
+	background: #FF5959;
+}
+.bg-info--light
+{
+	background: #d0ecff;
+}
+
+.yellow
+{
+	color: #FFFF2A;
+}
+
+.orange
+{
+	color: #FF5500;
+}
+
+.bg-fade
+{
+	background: #e0e0e0;
+}
+.bg-orange
+{
+	background: #FF5500;
+}
+
+.nav-item.active
+{
+	color: #007bff;
+	/*color: #3c1000;*/
+}
+.border-low-red
+{
+	border: #FF5959;
+}
+
+.text-primary--dark
+{
+	color: #004999;
+}
+
+.text-primary--light
+{
+	color: #66afff !important;
+}
+
+.darkness
+{
+	background: rgba(0,0,0,0.6) !important;
+}
